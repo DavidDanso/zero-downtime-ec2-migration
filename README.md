@@ -67,7 +67,7 @@ This project provisions billable AWS resources — an ALB, and 2 EC2 instances r
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/<your-username>/zero-downtime-ec2-migration.git
+   git clone https://github.com/DavidDanso/zero-downtime-ec2-migration.git
    cd zero-downtime-ec2-migration
    ```
 
@@ -145,7 +145,3 @@ Empty output = zero downtime. ✅
 ```bash
 terraform destroy
 ```
-
-## License
-
-MIT
