@@ -9,7 +9,7 @@
 
 # -----------------------------------------------------------------------------
 # Terraform & Provider Configuration
-# Pin Terraform to >= 1.0 and the AWS provider to ~> 5.0
+# Pin Terraform to >= 1.0 and the AWS provider to ~> 6.0
 # -----------------------------------------------------------------------------
 terraform {
   required_version = ">= 1.0"
@@ -17,7 +17,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 5.0"
+      version = "~> 6.0"
     }
   }
 }
